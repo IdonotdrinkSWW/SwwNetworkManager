@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SwwNetworkManager_Example' do
+  pod 'SwwNetworkManager', :path => '../'
+
+  target 'SwwNetworkManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

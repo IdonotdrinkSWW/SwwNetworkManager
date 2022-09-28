@@ -1,0 +1,6 @@
+framework module SwwNetworkManager {
+  umbrella header "SwwNetworkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
