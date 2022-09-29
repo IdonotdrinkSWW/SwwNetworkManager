@@ -75,7 +75,7 @@ static AFHTTPSessionManager *_httpManager = nil;
     AFJSONResponseSerializer *serializer = [AFJSONResponseSerializer serializer];
     NSDictionary *jsonDic = [serializer responseObjectForResponse:task.response data:data error:&error];
     if (!error) {
-        // 返回的是json
+        // 返回的是json类型的数据
         return jsonDic;
     } else {
         NSString *stringData = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
